@@ -32,7 +32,7 @@ class ecryptfs ($enc_dir = '/opt/data',
       }
 
       file { 'test_file':
-        path    => "$enc_dir/alive",
+        path    => "$enc_dir/testfile",
         ensure  => present,
         content => "We are glad you can read this.\n",
         require => Mount[$enc_dir],
