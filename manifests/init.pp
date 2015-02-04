@@ -1,6 +1,6 @@
 class ecryptfs ($enc_dir = '/opt/data',
                 $passwd_file = '/root/key',
-                $passphrase = 'private',
+                $passphrase = 'secret',
                 $key_bytes = 16,
                 $cipher = aes)
 {
